@@ -14,4 +14,16 @@ cd gcp-terraform
 $env:GOOGLE_CLOUD_KEYFILE_JSON="C:\Users\anthony.skidmore\gcp\terraform.json"
 $env:GOOGLE_PROJECT="terraform-296211"
 
+terraform init
+terraform plan
+terraform apply
+
+````
+
+When you are done run:
+
+````powershell
+
+terraform destroy
+
 ````
