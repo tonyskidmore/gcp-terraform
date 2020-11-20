@@ -1,6 +1,27 @@
 GCP Terraform Simple Example
 ============================
 
+### Using git
+
+Create a repo on GitHub and copy/paste commands that it gives you to update your code. For example:
+
+````powershell
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin https://github.com/tonyskidmore/gcp-terraform.git
+git push -u origin main
+````
+
+After making updates to files:
+
+````powershell
+git status
+git add .
+git commit -m "my new updates"
+git push # -u origin main
+````
+
 ### Introduction
 
 Simple example for Terraform and GCP in session with Temi
